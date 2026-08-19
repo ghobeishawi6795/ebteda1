@@ -1,0 +1,18 @@
+name = "homework-api"
+main = "src/index.ts"
+compatibility_date = "2026-08-19"
+compatibility_flags = ["nodejs_compat"]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "homework-db"
+database_id = "PASTE_YOUR_D1_DATABASE_ID"
+
+[[kv_namespaces]]
+binding = "OTP"
+id = "PASTE_YOUR_KV_ID"
+
+[vars]
+FRONTEND_URL = "http://localhost:5173"
+SMS_PROVIDER = "mock"
+STORAGE_PROVIDER = "d1"
